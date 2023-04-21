@@ -1,11 +1,18 @@
 package fizzBuzz;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+
+import org.junit.Test;
+
+import Class.FizzBuzz;
+
 public class FizzBuzzTest {
 	
 	@Test
-	void test()
+	public void test()
 	{
-		fail("Not yet");
+		assertEquals(FizzBuzz.fizzbuzz(1), "1");
 	}
 
 }
